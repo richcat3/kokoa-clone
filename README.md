@@ -1,3 +1,3 @@
 # kokoa clone
 
-Mingi's css
+My proofs
