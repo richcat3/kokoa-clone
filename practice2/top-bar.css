@@ -1,0 +1,14 @@
+.top-bar {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.top-bar > i:first-child {
+  position: absolute;
+  left: 0px;
+}
+
+.top-bar > i:last-child {
+  position: absolute;
+  right: 0px;
+}

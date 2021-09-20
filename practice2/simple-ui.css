@@ -1,0 +1,21 @@
+.simple-ui {
+  margin: 68px 0px 58px 0px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+.simple-ui i {
+  font-size: 25px;
+}
+.simple-ui i:first-child,
+.simple-ui i:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}
+.simple-ui i:nth-child(3) {
+  color: white;
+  background-color: black;
+  padding: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}

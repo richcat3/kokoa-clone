@@ -1,0 +1,69 @@
+.Info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.Info--second {
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.Info__pic {
+  margin-bottom: 30px;
+}
+.Info__pic--first {
+  border-radius: 50%;
+  box-shadow: 1px 3px 10px black;
+}
+.Info__pic--second {
+  border-radius: 25px;
+  box-shadow: 0px 12px 10px rgba(0, 0, 0, 0.3);
+  margin-bottom: 35px;
+}
+.Info__more {
+  display: flex;
+}
+
+.Info h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.Info h4 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+  margin-bottom: 35px;
+}
+.Info__more {
+  display: flex;
+  justify-content: center;
+}
+.Info__more div {
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-sizing: border-box;
+  width: 120px;
+  height: 44px;
+}
+.shuffle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
+}
+.shuffle span {
+  color: white;
+}
+.Likes {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+}
+.Likes span {
+  margin-left: 5px;
+}

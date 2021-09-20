@@ -1,0 +1,15 @@
+.red-dot {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 40px;
+}
+.red-dot-father {
+  position: relative;
+}
+#cog-red-dot {
+  top: -7px;
+  left: 26px;
+}

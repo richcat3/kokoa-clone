@@ -1,0 +1,29 @@
+.author {
+  margin: 0px 10px 20px 10px;
+}
+.author h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.author__info {
+  display: flex;
+}
+
+.author__info--text {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.author__info--text > p:first-child {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.author__info--text > p:last-child {
+  color: rgba(0, 0, 0, 0.3);
+}

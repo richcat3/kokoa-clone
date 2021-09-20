@@ -1,0 +1,47 @@
+.ranking {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+.ranking h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.ranking__list {
+  display: flex;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+}
+.ranking__list::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.ranking__list--books {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ranking__list--books:not(:first-child) {
+  margin-left: 30px;
+}
+.ranking__list--books img {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.ranking__list--stars {
+  font-size: 8px;
+  color: gold;
+}
+.ranking__list--stars :last-child {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.ranking__list--books:last-child img {
+  margin-right: 30px;
+}
+
+.ranking__list--books:last-child .ranking__list--stars:last-child {
+  margin-right: 30px;
+}

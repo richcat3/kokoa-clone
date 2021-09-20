@@ -1,0 +1,31 @@
+@import "reset.css";
+@import "top-bar.css";
+@import "Info.css";
+@import "playlist.css";
+@import "play-ui.css";
+@import "time-line.css";
+@import "simple-ui.css";
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  background-color: white;
+  border-radius: 20px;
+  width: 364px;
+  padding: 25px 15px;
+  margin-left: 100px;
+  position: relative;
+}

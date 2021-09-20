@@ -1,0 +1,39 @@
+.play-ui {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+  position: absolute;
+  bottom: 25px;
+  width: 344px;
+}
+.play-ui__text {
+  padding: 7.5px;
+}
+.play-ui__text h4 {
+  margin-bottom: 6px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.play-ui__text h2 {
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+}
+.play-ui__icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.play-ui__icons i {
+  margin-left: 20px;
+  font-size: 25px;
+  color: white;
+}
+.play-ui__icons i:not(:nth-child(2)) {
+  font-size: 20px;
+}

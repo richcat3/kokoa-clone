@@ -1,0 +1,60 @@
+body {
+  font-family: sans-serif;
+  background-color: lightslategray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.wrapper {
+  width: 364px;
+  background-color: white;
+  position: relative;
+}
+header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: yellow;
+  padding: 30px 10px 50px 10px;
+}
+
+.fa-list {
+  position: absolute;
+  left: 10px;
+  font-size: 24px;
+}
+
+.fa-shopping-basket {
+  position: absolute;
+  right: 10px;
+  font-size: 24px;
+}
+
+header p {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 10px;
+  border-radius: 18px;
+  padding: 10px 20px;
+  background-color: white;
+  position: absolute;
+  top: 80px;
+  box-shadow: 1px 3px 3px rgba(0, 0, 0, 0.4);
+  width: 304px;
+}
+
+.search input {
+  border: none;
+  font-size: 17px;
+}
+
+.search input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
